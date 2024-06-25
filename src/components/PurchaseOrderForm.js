@@ -19,73 +19,73 @@ const PurchaseOrderForm = () => {
 
       <div>
         <label htmlFor="orderNumber">Order Number:</label>
-        <input id="orderNumber" type="text" {...register('orderNumber', { required: true })} />
+        <input id="orderNumber" type="text" {...register('orderNumber', { required: false })} />
         {errors.orderNumber && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="orderDate">Order Date:</label>
-        <input id="orderDate" type="date" {...register('orderDate', { required: true })} />
+        <input id="orderDate" type="date" {...register('orderDate', { required: false })} />
         {errors.orderDate && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="supplierName">Supplier Name:</label>
-        <input id="supplierName" type="text" {...register('supplierName', { required: true })} />
+        <input id="supplierName" type="text" {...register('supplierName', { required: false })} />
         {errors.supplierName && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="supplierAddress">Supplier Address:</label>
-        <input id="supplierAddress" type="text" {...register('supplierAddress', { required: true })} />
+        <input id="supplierAddress" type="text" {...register('supplierAddress', { required: false })} />
         {errors.supplierAddress && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="supplierPhone">Supplier Phone:</label>
-        <input id="supplierPhone" type="tel" {...register('supplierPhone', { required: true })} />
+        <input id="supplierPhone" type="tel" {...register('supplierPhone', { required: false })} />
         {errors.supplierPhone && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="supplierEmail">Supplier Email:</label>
-        <input id="supplierEmail" type="email" {...register('supplierEmail', { required: true })} />
+        <input id="supplierEmail" type="email" {...register('supplierEmail', { required: false })} />
         {errors.supplierEmail && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="item">Item:</label>
-        <input id="item" type="text" {...register('item', { required: true })} />
+        <input id="item" type="text" {...register('item', { required: false })} />
         {errors.item && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="quantity">Quantity:</label>
-        <input id="quantity" type="number" {...register('quantity', { required: true })} />
+        <input id="quantity" type="number" {...register('quantity', { required: false })} />
         {errors.quantity && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="unitPrice">Unit Price:</label>
-        <input id="unitPrice" type="number" step="0.01" {...register('unitPrice', { required: true })} />
+        <input id="unitPrice" type="number" step="0.01" {...register('unitPrice', { required: false })} />
         {errors.unitPrice && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="totalPrice">Total Price:</label>
-        <input id="totalPrice" type="number" step="0.01" {...register('totalPrice', { required: true })} />
+        <input id="totalPrice" type="number" step="0.01" {...register('totalPrice', { required: false })} />
         {errors.totalPrice && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="deliveryDate">Delivery Date:</label>
-        <input id="deliveryDate" type="date" {...register('deliveryDate', { required: true })} />
+        <input id="deliveryDate" type="date" {...register('deliveryDate', { required: false })} />
         {errors.deliveryDate && <span>This field is required</span>}
       </div>
 
       <div>
         <label htmlFor="paymentTerms">Payment Terms:</label>
-        <input id="paymentTerms" type="text" {...register('paymentTerms', { required: true })} />
+        <input id="paymentTerms" type="text" {...register('paymentTerms', { required: false })} />
         {errors.paymentTerms && <span>This field is required</span>}
       </div>
 
