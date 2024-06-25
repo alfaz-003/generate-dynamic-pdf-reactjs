@@ -1,0 +1,47 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.purchase-order-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.purchase-order-form div {
+  margin-bottom: 15px;
+}
+
+.purchase-order-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.purchase-order-form input,
+.purchase-order-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.purchase-order-form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purchase-order-form button:hover {
+  background: #0056b3;
+}
+
+.purchase-order-form span {
+  color: red;
+  font-size: 12px;
+}
